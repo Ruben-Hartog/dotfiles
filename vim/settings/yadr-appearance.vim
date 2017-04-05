@@ -15,7 +15,7 @@ if has("gui_running")
   if has("gui_gtk2")
     set guifont=Inconsolata\ XL\ 12,Inconsolata\ 15,Monaco\ 12
   else
-    set guifont=Inconsolata\ XL:h12,Inconsolata:h15,Monaco:h12
+    set guifont=Inconsolata\ XL:h13,Inconsolata:h15,Monaco:h12
   end
 else
   let g:CSApprox_loaded = 1
